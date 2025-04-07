@@ -68,7 +68,7 @@ dag = DAG(
     'Dag-Collecte-Om',
     start_date=days_ago(1),
     default_args=default_args,
-    schedule_interval='0 9* * *',  
+    schedule_interval='0 9 * * *',  
     catchup=False)
 
  
