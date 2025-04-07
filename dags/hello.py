@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 default_args = {
     'owner': 'datamasterylab',
-    'start_date': datetime(year=2025, month=4, day=07),
+    'start_date': datetime(year=2025, month=4, day=7),
     'catchup': False
 }
 dag = DAG(
